@@ -1,0 +1,24 @@
+{
+  "name": "lambda-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "serverless-plugin-typescript": "^2.1.4",
+    "typescript": "^4.9.4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.2",
+    "fs": "^0.0.1-security",
+    "pdfkit": "^0.13.0"
+  }
+}
